@@ -1,6 +1,6 @@
 Name:           perl-HTTP-Negotiate
 Version:        6.01
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Choose a variant to serve
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -48,6 +48,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6.01-5
+- Mass rebuild 2013-12-27
+
 * Wed Nov 14 2012 Petr Šabata <contyk@redhat.com> - 6.01-4
 - Modernize the spec and drop command macros
 
